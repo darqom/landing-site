@@ -19,6 +19,11 @@ html body{
 	color: #1abc9c !important;	
 }
 
+.outline-green-primary{
+	color: #1abc9c;
+	border-color: #1abc9c;
+}
+
 .container-fluid{
 	padding: 5%	 7% 2%;
 }
@@ -104,7 +109,41 @@ html body{
 }
 
 .description p{
+	text-indent: 2.5em;
 	font-size: .9em;
+}
+
+.event-calendar h5{
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+.event-calendar p{
+	font-size: .6em;
+	font-weight: bold;
+}
+
+.event-title{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.event-time{
+	font-size: .7em;
+	font-weight: bold;
+}
+
+.announce-date{
+	margin-bottom: 5px;
+}
+
+.announce-text{
+	font-size: .7em;
+	font-weight: bold;
+}
+
+.copyright-content{
+	padding: 0;
 }
 
 footer{

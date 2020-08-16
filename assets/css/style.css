@@ -1,4 +1,4 @@
-html body{
+html body.has-background{
 	background: url(../img/background.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -174,6 +174,37 @@ footer .information .head{
 footer .copyright{
 	background: #030303;
 	font-size: .8em;
+}
+
+/* Article Style */
+#article-title{
+	font-family: 'EB Garamond', serif;
+	font-size: 2.5rem;
+}
+
+#main-article .post-date{
+	font-size: 1rem;
+	margin-left: 5px;
+	font-family: 'Lato';
+}
+
+#main-article .share-button{
+	color: black;
+	font-size: 1.3rem;
+	margin-right: 10px;
+}
+
+#main-article .share-button:hover{
+	color: #707070;
+}
+
+#article-text p{
+	font-family: 'Lato', serif;
+	font-size: 1.1rem;
+}
+
+#img-cover{
+	width: 100%;
 }
 
 @media (max-width: 575.98px) {

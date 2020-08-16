@@ -203,8 +203,28 @@ footer .copyright{
 	font-size: 1.1rem;
 }
 
+#article-text a{
+	color: #1abc9c;
+}
+
+#article-text a:hover{
+	color: #12947a;
+	text-decoration: none;
+}
+
 #img-cover{
 	width: 100%;
+}
+
+#cat-list{
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.cat-item{
+	font-size: .9rem;
+	font-weight: 200;
+	font-family: 'Lato', serif;
+	color: #474747;
 }
 
 @media (max-width: 575.98px) {

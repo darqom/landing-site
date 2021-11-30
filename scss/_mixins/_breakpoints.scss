@@ -1,0 +1,29 @@
+@function convert-breakpoint($name, $breakpoints) {
+    $value: map-get($breakpoints, $name);
+    @return $value;
+}
+
+@mixin breakpoint-min($name, $breakpoints: $grid-breakpoints) {
+    $min: convert-breakpoint($name, $breakpoints);
+
+    @media only screen and (min-width: $min) {
+        @content;
+    }
+}
+
+@mixin breakpoint-max($name, $breakpoints: $grid-breakpoints) {
+    $max: convert-breakpoint($name, $breakpoints);
+
+    @media only screen and (max-width: $min) {
+        @content;
+    }
+}
+
+@mixin breakpoint-between($down, $up, $breakpoints: $grid-breakpoints) {
+    $min: convert-breakpoint($down, $breakpoints);
+    $max: convert-breakpoint($up, $breakpoints);
+
+    @media only screen and (min-width: $min) and (max-width: $max) {
+        @content;
+    }
+}

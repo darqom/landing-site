@@ -14,7 +14,7 @@
 @mixin breakpoint-max($name, $breakpoints: $grid-breakpoints) {
     $max: convert-breakpoint($name, $breakpoints);
 
-    @media only screen and (max-width: $min) {
+    @media only screen and (max-width: $max) {
         @content;
     }
 }

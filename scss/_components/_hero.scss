@@ -1,0 +1,98 @@
+#hero {
+    margin-top: 75px;
+    min-height: calc(100vh - 70px);
+    background: bg-img-darker(.4, '../img/hero.png');
+    padding-top: 10%;
+    position: relative;
+
+    > .hero-element {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-family: $poppins;
+
+        > h1 {
+            font-weight: 700;
+            font-size: 300%;
+            margin-bottom: .8rem;
+        }
+
+        > h2 {
+            font-weight: 700;
+            font-size: 150%;
+        }
+
+        > h4 {
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+
+        > .hero-button {
+            margin-top: 6%;
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            > .about-us {
+                display: inline-block;
+                background-color: $primary;
+                color: white;
+                font-size: 175%;
+                font-weight: 500;
+                padding: .9rem 1.1rem;
+                margin-bottom: 1rem;
+            }
+
+            & .secondary-button {
+                background-color: $secondary;
+                font-size: 80%;
+                color: black;
+                width: 47%;
+                padding: .5rem 0;
+
+                > i {
+                    margin-right: .3rem;
+                    font-size: 130%;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint-max(sm) {
+    #hero {
+        min-height: calc(100vh - 150px);
+
+        > .hero-element {
+            margin-top: 10%;
+
+            > h1 {
+                font-size: 150%;
+            }
+
+            > h2 {
+                font-size: 75%;
+            }
+
+            > h4 {
+                font-size: 60%;
+            }
+
+            > .hero-button {
+                margin-top: 15%;
+
+                > .about-us {
+                    font-size: 100%;
+                }
+
+                & .secondary-button {
+                    font-size: 50%;
+                }
+            }
+        }
+    }
+}

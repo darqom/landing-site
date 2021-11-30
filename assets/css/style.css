@@ -8,6 +8,12 @@
 }
 
 #navbar {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
   font-family: "Poppins", sans-serif;
 }
 #navbar .nav-item.has-icons {
@@ -76,6 +82,88 @@
   #navbar .nav-item > .nav-icon {
     margin-right: 0.1rem;
     margin-left: 0.1rem;
+  }
+}
+#hero {
+  margin-top: 75px;
+  min-height: calc(100vh - 70px);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/hero.png") center bottom/cover no-repeat;
+  padding-top: 10%;
+  position: relative;
+}
+#hero > .hero-element {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+#hero > .hero-element > h1 {
+  font-weight: 700;
+  font-size: 300%;
+  margin-bottom: 0.8rem;
+}
+#hero > .hero-element > h2 {
+  font-weight: 700;
+  font-size: 150%;
+}
+#hero > .hero-element > h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+#hero > .hero-element > .hero-button {
+  margin-top: 6%;
+  display: inline-block;
+}
+#hero > .hero-element > .hero-button a {
+  text-decoration: none;
+  font-weight: 500;
+}
+#hero > .hero-element > .hero-button > .about-us {
+  display: inline-block;
+  background-color: #50CB93;
+  color: white;
+  font-size: 175%;
+  font-weight: 500;
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 1rem;
+}
+#hero > .hero-element > .hero-button .secondary-button {
+  background-color: #F1EBEB;
+  font-size: 80%;
+  color: black;
+  width: 47%;
+  padding: 0.5rem 0;
+}
+#hero > .hero-element > .hero-button .secondary-button > i {
+  margin-right: 0.3rem;
+  font-size: 130%;
+}
+
+@media only screen and (max-width: 576px) {
+  #hero {
+    min-height: calc(100vh - 150px);
+  }
+  #hero > .hero-element {
+    margin-top: 10%;
+  }
+  #hero > .hero-element > h1 {
+    font-size: 150%;
+  }
+  #hero > .hero-element > h2 {
+    font-size: 75%;
+  }
+  #hero > .hero-element > h4 {
+    font-size: 60%;
+  }
+  #hero > .hero-element > .hero-button {
+    margin-top: 15%;
+  }
+  #hero > .hero-element > .hero-button > .about-us {
+    font-size: 100%;
+  }
+  #hero > .hero-element > .hero-button .secondary-button {
+    font-size: 50%;
   }
 }
 @keyframes slidenavAnimation {

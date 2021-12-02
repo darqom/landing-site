@@ -1,0 +1,23 @@
+#about {
+    background-color: $primary;
+    position: relative;
+    min-height: 15rem;
+
+    > .curve {
+        position: relative;
+        overflow: hidden;
+        height: 75px;
+        transform: translateY(-60px);
+
+        &::before {
+            border-radius: 100%;
+            position: absolute;
+            background: $primary;
+            right: -450px;
+            left: -450px;
+            top: 0;
+            content: '';
+            bottom: -300px;
+        }
+    }
+}

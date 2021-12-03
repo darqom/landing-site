@@ -1,7 +1,6 @@
 #about {
     background-color: $primary;
-    position: relative;
-    min-height: 15rem;
+    padding-bottom: 0;
 
     > .curve {
         position: relative;
@@ -18,6 +17,97 @@
             top: 0;
             content: '';
             bottom: -300px;
+        }
+    }
+
+    > .about-content {
+        transform: translateY(-75px);
+        text-align: center;
+
+        & .about-icon {
+            margin-top: 0;
+            width: 80px;
+            opacity: .7;
+        }
+
+        & .about-description {
+            font-family: $poppins;
+            font-weight: 500;
+            font-size: 110%;
+            color: white;
+            margin-top: 2rem;
+            margin-bottom: 20%;
+        }
+    }
+}
+
+#about-video-container {
+    background-color: $secondary;
+    min-height: 10rem;
+
+    & .about-video-wrapper {
+        background: url('/assets/img/hero.png');
+        transform: translateY(-25%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > .about-video-button {
+            width: 9%;
+            height: 16%;
+            background-color: $primary;
+            color: white;
+            border-radius: 100%;
+            font-size: 175%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            z-index: 3;
+
+            > i {
+                margin-left: 5%;
+            }
+        }
+        
+        &::before {
+            content: '';
+            display: block;
+            padding-top: 55%;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .3);
+        }
+    }
+}
+
+@include breakpoint-max(sm) {
+    #about {
+        > .about-content {
+            & .about-icon {
+                width: 60px;
+            }
+
+            & .about-description {
+                font-size: 100%;
+                margin-bottom: 10%;
+            }
+        }
+    }
+
+    #about-video-container {
+        & .about-video-wrapper {
+            > .about-video-button {
+                font-size: 80%;
+            }
         }
     }
 }

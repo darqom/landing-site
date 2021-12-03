@@ -175,8 +175,7 @@
 }
 #about {
   background-color: #50CB93;
-  position: relative;
-  min-height: 15rem;
+  padding-bottom: 0;
 }
 #about > .curve {
   position: relative;
@@ -194,7 +193,80 @@
   content: "";
   bottom: -300px;
 }
+#about > .about-content {
+  transform: translateY(-75px);
+  text-align: center;
+}
+#about > .about-content .about-icon {
+  margin-top: 0;
+  width: 80px;
+  opacity: 0.7;
+}
+#about > .about-content .about-description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 110%;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 20%;
+}
 
+#about-video-container {
+  background-color: #F1EBEB;
+  min-height: 10rem;
+}
+#about-video-container .about-video-wrapper {
+  background: url("/assets/img/hero.png");
+  transform: translateY(-25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about-video-container .about-video-wrapper > .about-video-button {
+  width: 9%;
+  height: 16%;
+  background-color: #50CB93;
+  color: white;
+  border-radius: 100%;
+  font-size: 175%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 3;
+}
+#about-video-container .about-video-wrapper > .about-video-button > i {
+  margin-left: 5%;
+}
+#about-video-container .about-video-wrapper::before {
+  content: "";
+  display: block;
+  padding-top: 55%;
+}
+#about-video-container .about-video-wrapper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 576px) {
+  #about > .about-content .about-icon {
+    width: 60px;
+  }
+  #about > .about-content .about-description {
+    font-size: 100%;
+    margin-bottom: 10%;
+  }
+
+  #about-video-container .about-video-wrapper > .about-video-button {
+    font-size: 80%;
+  }
+}
 @keyframes slidenavAnimation {
   from {
     opacity: 0;

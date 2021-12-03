@@ -1,1 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M 16 4 L 3 7 L 3 9 L 16 6 L 29 9 L 29 7 Z M 10 10 C 6.773438 10 3.625 11.3125 3.625 11.3125 L 3 11.59375 L 3 27 L 14.28125 27 C 14.628906 27.597656 15.261719 28 16 28 C 16.738281 28 17.371094 27.597656 17.71875 27 L 29 27 L 29 11.59375 L 28.375 11.3125 C 28.375 11.3125 25.226563 10 22 10 C 19.082031 10 16.519531 10.980469 16 11.1875 C 15.480469 10.980469 12.917969 10 10 10 Z M 10 12 C 11.933594 12 14 12.625 15 12.96875 L 15 24.09375 C 13.886719 23.726563 12.058594 23.21875 10 23.21875 C 7.898438 23.21875 6.1875 23.703125 5 24.09375 L 5 12.96875 C 5.769531 12.691406 7.800781 12 10 12 Z M 22 12 C 24.199219 12 26.230469 12.691406 27 12.96875 L 27 24.09375 C 25.8125 23.703125 24.101563 23.21875 22 23.21875 C 19.941406 23.21875 18.113281 23.726563 17 24.09375 L 17 12.96875 C 18 12.625 20.066406 12 22 12 Z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666665 8.4666669"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="school.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:lockguides="true"
+     inkscape:zoom="13.027834"
+     inkscape:cx="24.294138"
+     inkscape:cy="14.814435"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="px" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g975"
+       transform="translate(-129.07735,-82.022578)">
+      <rect
+         style="fill:none;stroke-width:0.407337;stroke-linecap:round;stroke-linejoin:round"
+         id="rect855"
+         width="8.4666662"
+         height="8.4666662"
+         x="129.11111"
+         y="82.034645" />
+      <path
+         d="m 133.36734,83.118343 -3.43958,0.79375 v 0.529167 l 3.43958,-0.79375 3.43959,0.79375 v -0.529167 z m -1.5875,1.5875 c -0.85369,0 -1.68672,0.347266 -1.68672,0.347266 l -0.16536,0.07441 v 4.076237 h 2.98483 c 0.092,0.158129 0.25942,0.264583 0.45475,0.264583 0.19534,0 0.36277,-0.106454 0.45476,-0.264583 h 2.98483 v -4.076237 l -0.16537,-0.07441 c 0,0 -0.83302,-0.347266 -1.68672,-0.347266 -0.77204,0 -1.45004,0.259416 -1.5875,0.314193 -0.13746,-0.05478 -0.81545,-0.314193 -1.5875,-0.314193 z m 0,0.529167 c 0.5116,0 1.05834,0.165364 1.32292,0.256315 v 2.943489 c -0.29456,-0.09715 -0.77825,-0.23151 -1.32292,-0.23151 -0.55604,0 -1.00872,0.128157 -1.32291,0.23151 v -2.943489 c 0.2036,-0.07338 0.74104,-0.256315 1.32291,-0.256315 z m 3.175,0 c 0.58188,0 1.11931,0.182934 1.32292,0.256315 v 2.943489 c -0.31419,-0.103353 -0.76688,-0.23151 -1.32292,-0.23151 -0.54467,0 -1.02836,0.134359 -1.32291,0.23151 v -2.943489 c 0.26458,-0.09095 0.81132,-0.256315 1.32291,-0.256315 z"
+         id="path824"
+         style="fill:#ffffff;stroke-width:0.264583" />
+    </g>
+  </g>
+</svg>

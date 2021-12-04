@@ -1,3 +1,0 @@
-@function bg-img-darker($opacity, $path) {
-    @return linear-gradient(rgba(0, 0, 0, $opacity),rgba(0, 0, 0, $opacity)) , url($path) center bottom / cover no-repeat;
-}

@@ -89,7 +89,7 @@
   position: relative;
   padding-top: 8%;
   padding-bottom: 10%;
-  background: url("/assets/img/hero.png");
+  background: url("../../assets/img/hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@
   min-height: 10rem;
 }
 #about-video-container .about-video-wrapper {
-  background: url("/assets/img/hero.png");
+  background: url("../../assets/img/hero.png");
   transform: translateY(-25%);
   display: flex;
   justify-content: center;
@@ -270,6 +270,16 @@
     font-size: 80%;
   }
 }
+#exculs {
+  background-color: #F1EBEB;
+}
+#exculs > .excul-title {
+  text-align: center;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
 @keyframes slidenavAnimation {
   from {
     opacity: 0;

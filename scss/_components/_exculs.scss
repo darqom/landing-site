@@ -1,0 +1,10 @@
+#exculs {
+    background-color: $secondary;
+
+    > .excul-title {
+        text-align: center;
+        font-weight: 700;
+        font-family: $poppins;
+        text-transform: uppercase;
+    }
+}

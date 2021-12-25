@@ -7,6 +7,5 @@ mix.webpackConfig({
 });
 
 mix.sass('src/scss/style.scss', 'css')
-    .copy('src/images', 'dist/images')
-    .setPublicPath('dist');
+    .copy('src/images', 'images')
 

@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap";
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap);
 .btn {
   border-radius: 0;
 }
@@ -89,7 +89,7 @@
   position: relative;
   padding-top: 8%;
   padding-bottom: 10%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/hero.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hero.png?d7d8d21c5f39b41608e6c53b327b3001);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@
   min-height: 10rem;
 }
 #about-video-container .about-video-wrapper {
-  background: url("../../assets/img/hero.png");
+  background: url(/images/hero.png?d7d8d21c5f39b41608e6c53b327b3001);
   transform: translateY(-25%);
   display: flex;
   justify-content: center;
@@ -296,5 +296,3 @@
     opacity: 1;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

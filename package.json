@@ -1,0 +1,22 @@
+{
+  "name": "darom-landing-site",
+  "version": "1.0.0",
+  "description": "SMK Darul Muqomah Landing Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darqom/landing-site.git"
+  },
+  "author": "irsyadulibad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darqom/landing-site/issues"
+  },
+  "homepage": "https://github.com/darqom/landing-site#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.39"
+  }
+}

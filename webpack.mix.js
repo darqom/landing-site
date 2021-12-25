@@ -1,11 +1,10 @@
 const mix = require('laravel-mix');
 
-mix.webpackConfig({
-    stats: {
-        children: true
-    }
+mix.options({
+    processCssUrls: false
 });
 
 mix.sass('src/scss/style.scss', 'css')
-    .copy('src/images', 'images')
+    .copy('src/images', 'dist/images')
+    .setPublicPath('dist')
 

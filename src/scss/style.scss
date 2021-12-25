@@ -2,6 +2,9 @@
 @import 'variables';
 @import 'fonts';
 
+// Load functions
+@import '_functions';
+
 // Load mixins
 @import '_mixins/init';
 @import 'classes';

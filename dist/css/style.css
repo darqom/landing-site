@@ -89,7 +89,7 @@
   position: relative;
   padding-top: 8%;
   padding-bottom: 10%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hero.png?d7d8d21c5f39b41608e6c53b327b3001);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@
   min-height: 10rem;
 }
 #about-video-container .about-video-wrapper {
-  background: url(/images/hero.png?d7d8d21c5f39b41608e6c53b327b3001);
+  background: url("../images/hero.png");
   transform: translateY(-25%);
   display: flex;
   justify-content: center;

@@ -46,7 +46,7 @@
     min-height: 10rem;
 
     & .about-video-wrapper {
-        background: url('../../images/hero.png');
+        background: url(location('images/hero.png'));
         transform: translateY(-25%);
         display: flex;
         justify-content: center;

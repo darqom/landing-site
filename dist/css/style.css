@@ -545,13 +545,74 @@
 #exculs {
   background-color: #F1EBEB;
 }
-#exculs > .excul-title {
+#exculs > .container {
+  padding-bottom: 2rem;
+}
+#exculs .excul-title {
   text-align: center;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
+  margin-bottom: 3.5rem;
+}
+#exculs .owl-theme {
+  margin: 0;
+}
+#exculs .owl-theme .excul-card {
+  width: 300px;
+  margin: auto;
+}
+#exculs .owl-theme .excul-card > .excul-image {
+  background-image: url("../images/excul.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: auto;
+  height: 200px;
+  border-radius: 20px;
+}
+#exculs .owl-theme .excul-card > .excul-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-top: 1.1rem;
+  font-size: 0.9rem;
+}
+#exculs .owl-theme .owl-stage-outer {
+  padding: 0;
+}
+#exculs .owl-theme .owl-dots {
+  width: 100%;
+}
+#exculs .owl-theme .owl-dots button.owl-dot {
+  width: 27px;
+  height: 10px;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 50px;
+  display: inline-block;
+  background: transparent;
+  margin: 0 3px;
+  border: 1px solid #50CB93;
+}
+#exculs .owl-theme .owl-dots button.owl-dot.active {
+  background-color: #50CB93;
+  outline: none;
+}
+#exculs .owl-theme .owl-dots button.owl-dot span {
+  background: transparent !important;
 }
 
+@media only screen and (max-width: 576px) {
+  #exculs .owl-theme .excul-card {
+    width: 250px;
+  }
+  #exculs .owl-theme .excul-card > .excul-image {
+    height: 150px;
+  }
+  #exculs .owl-theme .owl-dots button.owl-dot {
+    width: 18px;
+    height: 8px;
+  }
+}
 @keyframes slidenavAnimation {
   from {
     opacity: 0;

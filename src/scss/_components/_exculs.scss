@@ -1,10 +1,88 @@
 #exculs {
     background-color: $secondary;
 
-    > .excul-title {
+    > .container {
+        padding-bottom: 2rem;
+    }
+
+    .excul-title {
         text-align: center;
         font-weight: 700;
         font-family: $poppins;
         text-transform: uppercase;
+        margin-bottom: 3.5rem;
+    }
+
+    .owl-theme {
+        margin: 0;
+
+        .excul-card {
+            width: 300px;
+            margin: auto;
+
+            > .excul-image {
+                background-image: url(location('images/excul.jpg'));
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+                margin: auto;
+                height: 200px;
+                border-radius: 20px;
+            }
+
+            > .excul-name {
+                font-family: $poppins;
+                font-weight: 500;
+                margin-top: 1.1rem;
+                font-size: .9rem;
+            }
+        }
+
+        .owl-stage-outer {
+            padding: 0;
+        }
+
+        .owl-dots{
+            width: 100%;
+        }
+
+        .owl-dots button.owl-dot {
+            width: 27px;
+            height: 10px;
+            -webkit-tap-highlight-color: transparent;
+            border-radius: 50px;
+            display: inline-block;
+            background: transparent;
+            margin: 0 3px;
+            border: 1px solid $primary;
+        }
+
+        .owl-dots button.owl-dot.active {
+            background-color: $primary;
+            outline: none;
+        }
+
+        .owl-dots button.owl-dot span{
+            background: transparent !important;
+        }
+    }
+}
+
+@include breakpoint-max(sm) {
+    #exculs {
+        .owl-theme {
+            .excul-card {
+                width: 250px;
+
+                > .excul-image {
+                    height: 150px;
+                }
+            }
+
+            .owl-dots button.owl-dot {
+                width: 18px;
+                height: 8px;
+            }
+        }
     }
 }

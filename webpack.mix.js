@@ -4,7 +4,11 @@ mix.options({
     processCssUrls: false
 });
 
-mix.sass('src/scss/style.scss', 'css')
-    .copy('src/images', 'dist/images')
+mix.copy('src/images', 'dist/images')
+    .sass('src/scss/style.scss', 'css')
+    .js('src/js/app.js', 'js')
+    .autoload({
+        jquery: ['$', 'window.jQuery', 'jQuery']
+    })
     .setPublicPath('dist')
 

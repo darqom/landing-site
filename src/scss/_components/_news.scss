@@ -1,0 +1,72 @@
+#news {
+    padding-top: 3rem;
+
+    > h3.news-title {
+        text-align: center;
+        font-weight: 700;
+        font-family: $poppins;
+        text-transform: uppercase;
+    }
+
+    .news-card {
+        width: 90%;
+        margin: 1rem auto;
+
+        > .news-image {
+            background-image: url(location('images/excul.jpg'));
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            margin: auto;
+            height: 200px;
+        }
+
+        > .news-detail {
+            font-family: $poppins;
+            background-color: $primary;
+            color: white;
+            padding-bottom: 1rem;
+
+            > .curve {
+                position: relative;
+                overflow: hidden;
+                height: 30px;
+                transform: translateY(-28px);
+        
+                &::before {
+                    border-radius: 100%;
+                    position: absolute;
+                    background: $primary;
+                    right: -200px;
+                    left: -200px;
+                    top: 0;
+                    content: '';
+                    bottom: -100px;
+                }
+            }
+
+            > .news-title {
+                font-weight: 700;
+                margin-top: -30px;
+                z-index: 2;
+                padding: 0 20px 0;
+            }
+
+            > .news-text {
+                font-size: .8rem;
+                padding: 0 20px 0;
+            }
+
+            > .news-more-btn {
+                color: white;
+                text-decoration: none;
+                font-family: $poppins;
+                text-transform: uppercase;
+                font-size: .8rem;
+                border: 1px solid white;
+                padding: 5px 10px;
+                margin: 0 20px;
+            }
+        }
+    }
+}

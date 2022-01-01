@@ -613,6 +613,70 @@
     height: 8px;
   }
 }
+#news {
+  padding-top: 3rem;
+}
+#news > h3.news-title {
+  text-align: center;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+#news .news-card {
+  width: 90%;
+  margin: 1rem auto;
+}
+#news .news-card > .news-image {
+  background-image: url("../images/excul.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: auto;
+  height: 200px;
+}
+#news .news-card > .news-detail {
+  font-family: "Poppins", sans-serif;
+  background-color: #50CB93;
+  color: white;
+  padding-bottom: 1rem;
+}
+#news .news-card > .news-detail > .curve {
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  transform: translateY(-28px);
+}
+#news .news-card > .news-detail > .curve::before {
+  border-radius: 100%;
+  position: absolute;
+  background: #50CB93;
+  right: -200px;
+  left: -200px;
+  top: 0;
+  content: "";
+  bottom: -100px;
+}
+#news .news-card > .news-detail > .news-title {
+  font-weight: 700;
+  margin-top: -30px;
+  z-index: 2;
+  padding: 0 20px 0;
+}
+#news .news-card > .news-detail > .news-text {
+  font-size: 0.8rem;
+  padding: 0 20px 0;
+}
+#news .news-card > .news-detail > .news-more-btn {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border: 1px solid white;
+  padding: 5px 10px;
+  margin: 0 20px;
+}
+
 @keyframes slidenavAnimation {
   from {
     opacity: 0;

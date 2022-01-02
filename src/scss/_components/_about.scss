@@ -47,6 +47,8 @@
 
     & .about-video-wrapper {
         background: url(location('images/hero.png'));
+        background-size: cover;
+        background-position: center;
         transform: translateY(-25%);
         display: flex;
         justify-content: center;

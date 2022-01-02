@@ -1,0 +1,47 @@
+#quote {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(location('images/hero.png'));
+    background-size: cover;
+    background-position: center;
+
+    .quote-card {
+        background-color: white;
+        padding: 40px 150px;
+        border-radius: 20px;
+
+        > .quote-image {
+            width: 85px;
+            height: 85px;
+            border-radius: 100%;
+            margin: auto;
+            background-image: url(location('images/logo-sekolah.png'));
+            background-size: cover;
+            background-position: center;
+        }
+
+        > .quote-caption {
+            font-family: $poppins;
+            font-weight: 500;
+            color: black;
+            text-align: center;
+            margin-top: 1.5rem;
+            margin-bottom: 1.2rem;
+        }
+
+        > .quote-figure-name {
+            font-family: $poppins;
+            text-transform: uppercase;
+            font-size: .7rem;
+            margin: 0;
+        }
+    }
+}
+
+@include breakpoint-max(sm) {
+    #quote {
+        .quote-card {
+            padding: 30px 50px;
+        }
+    }
+}
